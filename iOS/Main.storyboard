@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="442">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="441">
+            <objects>
+                <viewController id="442" sceneMemberID="viewController" customClass="MainViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="439"/>
+                        <viewControllerLayoutGuide type="bottom" id="440"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="443">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1110" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="250" y="498" width="50" height="50"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="0" alpha="1"/>
+                                <state key="normal" title="-">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <constraints>
+                                    <constraint id="1117" firstItem="1110" firstAttribute="height" constant="50"/>
+                                    <constraint id="1118" firstItem="1110" firstAttribute="width" constant="50"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1111" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="180" y="498" width="50" height="50"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="0" alpha="1"/>
+                                <state key="normal" title="+">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1112" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="498" width="46" height="50"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="1115" firstItem="443" firstAttribute="bottom" secondItem="1110" secondAttribute="bottom" constant="20"/>
+                            <constraint id="1116" firstItem="443" firstAttribute="right" secondItem="1110" secondAttribute="right" constant="20"/>
+                            <constraint id="1123" firstItem="1111" firstAttribute="height" secondItem="1110" secondAttribute="height"/>
+                            <constraint id="1124" firstItem="1111" firstAttribute="width" secondItem="1110" secondAttribute="width"/>
+                            <constraint id="1126" firstItem="1111" firstAttribute="bottom" secondItem="1110" secondAttribute="bottom"/>
+                            <constraint id="1127" firstItem="1110" firstAttribute="leading" secondItem="1111" secondAttribute="trailing" constant="20"/>
+                            <constraint id="1128" firstItem="1112" firstAttribute="left" secondItem="443" secondAttribute="left" constant="20"/>
+                            <constraint id="1129" firstItem="1111" firstAttribute="bottom" secondItem="1112" secondAttribute="bottom"/>
+                            <constraint id="1130" firstItem="1111" firstAttribute="leading" secondItem="1112" secondAttribute="trailing" constant="40" relation="greaterThanOrEqual"/>
+                            <constraint id="1131" firstItem="1112" firstAttribute="height" secondItem="1111" secondAttribute="height"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonNewCalculation" destination="1112" id="name-outlet-1112"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="444" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="186" y="97"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
