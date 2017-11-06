@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Calculator
 {
-    public class MyClass
+    public class Calculator
     {
-        public MyClass()
+        public Calculator()
         {
         }
     }

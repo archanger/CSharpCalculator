@@ -29,6 +29,7 @@ namespace Calculator.iOS
             rightInput.Layer.CornerRadius = 5;
 
 
+
             keyboardNotification = UIKeyboard.Notifications.ObserveWillChangeFrame(KeyboardFrameChanged);
 
         }

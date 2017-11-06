@@ -59,21 +59,21 @@
                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0.87058823529411766" green="0.87450980392156863" blue="0.88627450980392153" alpha="1"/>
                     </variation>
                 </button>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="685" translatesAutoresizingMaskIntoConstraints="NO" clearButtonMode="whileEditing" placeholder="2573 mm" misplaced="YES">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="685" translatesAutoresizingMaskIntoConstraints="NO" clearButtonMode="whileEditing" placeholder="2573 mm" borderStyle="roundedRect">
                     <rect key="frame" x="20" y="447" width="128.5" height="30"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardAppearance="alert" keyboardType="numberPad"/>
                 </textField>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="686" translatesAutoresizingMaskIntoConstraints="NO" clearButtonMode="whileEditing" placeholder="1744 mm" misplaced="YES">
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="686" translatesAutoresizingMaskIntoConstraints="NO" clearButtonMode="whileEditing" placeholder="1744 mm" borderStyle="roundedRect">
                     <rect key="frame" x="161.5" y="447" width="128.5" height="30"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert"/>
                 </textField>
-                <view contentMode="scaleToFill" id="694" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                <view contentMode="scaleToFill" id="694" translatesAutoresizingMaskIntoConstraints="NO">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="702" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="702" translatesAutoresizingMaskIntoConstraints="NO">
                             <rect key="frame" x="139" y="205" width="42" height="21"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
